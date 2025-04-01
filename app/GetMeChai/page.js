@@ -23,7 +23,7 @@ const page = () => {
                 <h2 className='font-semibold text-center caramel-regular text-9xl'>TapriKiChai</h2>
 
                 <button 
-                className='h-15 w-52 text-2xl font-light text-black bg-white rounded mt-44 ml-80 hover:bg-orange-300 hover:border-white hover:border-2'>Explore Chai</button>
+                className='h-15 w-52 text-2xl font-light text-black bg-white rounded mt-44 ml-80 hover:bg-orange-300 hover:border-white hover:border-2'>Pay4Chai</button>
             </div>
 
         </div>

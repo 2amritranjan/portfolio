@@ -8,7 +8,7 @@ import { SiGmail } from "react-icons/si";
 const Landing_2 = () => {
   return (
     <>
-    <div className='w-2/3 h-auto border-2 border-amber-200 m-2'>
+    <div className='w-2/3 h-auto m-2'>
               
               <div className='text-9xl text-white font-serif font-semibold m-2'>
                 MY PORTFOLIO

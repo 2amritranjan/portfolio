@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
+import Card from '../component/Card'
 
 const page = () => {
   return (
@@ -8,7 +9,16 @@ const page = () => {
     <div className='h-20 w-full p-5 flex justify-end'>
           <Navbar/>
         </div>
-        This is project page
+       <div className='w-full h-screen flex justify-around flex-wrap'>
+        <Card image="amrit.png" text="Amrit"/>
+        <Card image="chai.png" text="Chai"/>
+        <Card image="amrit.png" text="Amrit"/>
+        <Card image="chai.png" text="Chai"/>
+        <Card image="amrit.png" text="Amrit"/>
+        <Card image="chai.png" text="Chai"/>
+        
+        
+       </div>
     </div>
     </>
   )
