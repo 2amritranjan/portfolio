@@ -1,7 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Navbar from '../component/Navbar'
+import { TiTick } from "react-icons/ti";
 
 const page = () => {
+
+  const[pay4Chai, setPay4chai] = useState(false);
+
+  const chaiHandler = () =>{
+    setPay4chai(true)
+  }
   return (
     <>
     <div className='h-screen w-full bg-orange-300 flex flex-col bg-[url("/sunflower.webp")] bg-contain'>
@@ -22,8 +30,9 @@ const page = () => {
                 <h1 className='font-light text-7xl text-center'>GetMeA</h1>
                 <h2 className='font-semibold text-center caramel-regular text-9xl'>TapriKiChai</h2>
 
-                <button 
-                className='h-15 w-52 text-2xl font-light text-black bg-white rounded mt-44 ml-80 hover:bg-orange-300 hover:border-white hover:border-2'>Pay4Chai</button>
+                <button onClick={chaiHandler}
+                className='h-15 w-52 text-2xl font-light text-black bg-white rounded mt-44 ml-80 hover:bg-orange-300 hover:border-white hover:border-2'>
+                  {pay4Chai ? <div className='flex gap-1 justify-center'>Thanks <TiTick className='mt-1 text-white bg-green-500 rounded-3xl text-2xl'/></div> : "Pay4Chai"}</button>
             </div>
 
         </div>
