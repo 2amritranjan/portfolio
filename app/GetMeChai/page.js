@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Navbar from '../component/Navbar'
 import { TiTick } from "react-icons/ti";
+import Link from 'next/link';
 
 const page = () => {
 
@@ -14,7 +15,7 @@ const page = () => {
     <>
     <div className='h-screen w-full bg-orange-300 flex flex-col bg-[url("/sunflower.webp")] bg-contain'>
         <div className='h-20 w-full p-5 flex justify-end gap-10'>
-          <Navbar color='black'/><h1 className='caramel-regular text-black font-mono text-2xl hover:text-amber-200'>CHAI_MANIYA</h1>
+          <Navbar color='black'/><h1 className='caramel-regular text-black font-mono text-2xl hover:text-amber-200'><Link href="/Chai_maniya">CHAI_MANIYA</Link></h1>
         </div>
 
         <div className='flex'>

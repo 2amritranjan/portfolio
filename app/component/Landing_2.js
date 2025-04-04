@@ -18,7 +18,7 @@ const Landing_2 = () => {
               A web developer who turns caffeine into code and bugs into features. Fluent in JavaScript, React, and lots of ctrl + z. I break things just to fix them better. Love clean UI, smart UX, and dark mode. Let’s build something cool (or at least look busy)!
               </div>
               <div className='w-full flex justify-end p-10'>
-                <Link href="/GetMeChai"><button className='w-44 h-12 bg-white text-green-950 text-xl font-extralight hover:bg-amber-200'>Explore</button></Link>
+                <Link href="/GetMeChai"><button className='w-44 h-12 bg-white text-green-950 text-xl font-extralight hover:bg-amber-200'>Explore Chai</button></Link>
               </div>
               <div className='w-full h-auto text-white flex justify-evenly'>
               <a href='https://www.instagram.com/2amritranjan' target='_blank'><IoLogoInstagram size={40} className='hover:text-amber-200'/></a>
