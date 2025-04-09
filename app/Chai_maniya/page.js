@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from '../component/Card'
-import Navbar from '../component/Navbar'
+import Navbar2 from '../component/Navbar2'
 
 const page = () => {
   return (
     <>
-    <div className='h-screen w-full bg-orange-300 flex flex-col bg-[url("/sunflower.webp")] bg-contain backdrop-blur-2xl'>
-    <Navbar/>
+    <div className='bg-orange-300 w-full h-screen flex flex-col'>
+    <Navbar2/>
     <div className='w-full h-screen flex items-center justify-evenly'>
         <Card text="Kulhad Rs:-20" image="kulhad.webp"/>
         <Card text="Tapri Rs:-10" image="tapri.jpg"/>
