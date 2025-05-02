@@ -9,7 +9,7 @@ const Landing_Chai = () => {
     <div className='h-20 w-20 -top-2 -left-2 absolute'><img src='tick.webp' alt='tick'></img></div>
     <div className='flex'>
         <img src='chai2.png' alt='image' className='m-5'></img>
-        <p className='text-center mt-32 mr-5 font-light text-xl'>
+        <p className='text-center mt-32 mr-5 font-semibold text-xl'>
         A hot beverage made by boiling tea leaves with milk, sugar, and spices like ginger or cardamom, enjoyed daily across countless homes and streets. Chai is not just a drink — it's a feeling of comfort, warmth, and togetherness. Whether it’s a rainy evening or a busy morning, one cup of chai can refresh your mind and soothe your mood.</p>
         </div>
         <div className='w-3/4 text-right'><button className='bg-green-400 text-2xl font-light h-10 w-44 caramel-regular rounded-md hover:bg-green-500'>CHAI@20</button></div>

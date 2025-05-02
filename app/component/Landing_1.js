@@ -11,7 +11,7 @@ const Landing_1 = () => {
   </div>
 </div>
 
-<div className='text-9xl text-white font-bold text-center caramel-regular'>
+<div className='text-9xl text-white font-bold text-center animate-pulse caramel-regular'>
   Amrit Ranjan
 </div>
 </div>
