@@ -23,10 +23,10 @@ const Landing_2 = () => {
                 <Link href="/GetMeChai"><motion.button initial={{x:-1000}} animate={{rotate:360, x:0}} transition={{delay:1, duration:1}} className='w-44 h-12 bg-white text-green-950 text-xl font-extralight animate-pulse hover:bg-amber-200'>Explore Chai</motion.button></Link>
               </div>
               <motion.div initial={{y:100}} animate={{y:0}} transition={{delay:1, duration:3}} className='w-full h-auto text-white flex justify-evenly'>
-              <a href='https://www.instagram.com/2amritranjan' target='_blank'><IoLogoInstagram size={40} className='hover:text-amber-200'/></a>
-              <a href='https://www.github.com/2amritranjan' target='_blank'><IoLogoGithub size={40} className='hover:text-amber-200'/></a>
-              <a href="https://wa.me/918340397905" target="_blank"><IoLogoWhatsapp size={40} className='hover:text-amber-200'/></a>
-              <a href='mailto:2amritranjan@gmail.com'><SiGmail size={40} className='hover:text-amber-200'/></a>
+              <a href='https://www.instagram.com/2amritranjan' target='_blank'><IoLogoInstagram size={40} className='hover:text-amber-200 hover:scale-110'/></a>
+              <a href='https://www.github.com/2amritranjan' target='_blank'><IoLogoGithub size={40} className='hover:text-amber-200 hover:scale-110'/></a>
+              <a href="https://wa.me/918340397905" target="_blank"><IoLogoWhatsapp size={40} className='hover:text-amber-200 hover:scale-110'/></a>
+              <a href='mailto:2amritranjan@gmail.com'><SiGmail size={40} className='hover:text-amber-200 hover:scale-110'/></a>
               </motion.div>
               </div>
     </>

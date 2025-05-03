@@ -26,8 +26,8 @@ const Navbar2 = () => {
             className='w-2/3 h-10 rounded-r-lg border p-1 bg-orange-300 hover:bg-orange-200' placeholder='Search Chai...'/>
         </div>
         <div className='flex mt-5 justify-end text-2xl caramel-regular gap-10 font-semibold animate-pulse'>
-          <div className='hover:text-gray-200'><CiGlass size={40}/> Cart</div>
-          <div className='hover:text-gray-200'><RiUser2Fill size={40}/>Login</div></div>
+          <div className='hover:text-gray-200 hover:scale-115'><CiGlass size={40}/> Cart</div>
+          <div className='hover:text-gray-200 hover:scale-115'><RiUser2Fill size={40}/>Login</div></div>
         </div>
       <hr/>
     </>

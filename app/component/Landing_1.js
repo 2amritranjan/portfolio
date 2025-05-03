@@ -9,7 +9,7 @@ const Landing_1 = () => {
 
 <motion.div initial={{x:-500}} animate={{x:0}} transition={{delay:1, duration:3}} className='rounded-full border border-black h-52 w-52 bg-amber-200 flex justify-center items-center overflow-hidden'>
   <div className='rounded-full border border-black h-48 w-48 bg-green-950 overflow-hidden'>
-    <img src='amrit.png' alt='image' className='h-full w-full object-cover' />
+    <motion.img initial={{y:-300}} animate={{y:0}} transition={{delay:2, duration:3}} src='amrit.png' alt='image' className='h-full w-full object-cover' />
   </div>
 </motion.div>
 
