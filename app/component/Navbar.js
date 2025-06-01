@@ -11,6 +11,7 @@ const Navbar = ({ color = "white" }) => {
         <li className='hover:text-amber-200 hover:scale-110'><Link href="/">HOME</Link></li>
         <li className='hover:text-amber-200 hover:scale-110'><Link href="/Project">PROJECT</Link></li>
         <li className='hover:text-amber-200 hover:scale-110'><Link href="/Contact">CONTACTS</Link></li>
+        <li className='hover:text-amber-200 hover:scale-110'><Link href="/Education">EDUCATION</Link></li>
       </motion.ul>
     </>
   );
