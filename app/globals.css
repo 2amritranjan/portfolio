@@ -24,9 +24,11 @@
 tr td{
   text-align: center;
   border: 1px solid white;
+  color: white;
+  font-size: large;
 }  
 th{
   background: #fde68a;
-  font-size: xx-large;
+  font-size: x-large;
   color: BLACK;
 }
